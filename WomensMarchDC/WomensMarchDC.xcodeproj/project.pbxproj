@@ -16,6 +16,7 @@
 		450990351E27F02E00D3148C /* Asimov.otf in Resources */ = {isa = PBXBuildFile; fileRef = 450990341E27F02E00D3148C /* Asimov.otf */; };
 		4509903B1E27F1F700D3148C /* AsimovWid.otf in Resources */ = {isa = PBXBuildFile; fileRef = 450990391E27F1F700D3148C /* AsimovWid.otf */; };
 		4509903F1E280C4800D3148C /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4509903E1E280C4800D3148C /* RegisterViewController.swift */; };
+		BCEB89E41E28A790003A9801 /* FAQViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCEB89E31E28A790003A9801 /* FAQViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,7 @@
 		450990341E27F02E00D3148C /* Asimov.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = Asimov.otf; path = ../Asimov.otf; sourceTree = "<group>"; };
 		450990391E27F1F700D3148C /* AsimovWid.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = AsimovWid.otf; path = ../AsimovWid.otf; sourceTree = "<group>"; };
 		4509903E1E280C4800D3148C /* RegisterViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = RegisterViewController.swift; path = ../RegisterViewController.swift; sourceTree = "<group>"; };
+		BCEB89E31E28A790003A9801 /* FAQViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FAQViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +82,7 @@
 			children = (
 				450990201E27E72900D3148C /* ViewController.swift */,
 				4509903E1E280C4800D3148C /* RegisterViewController.swift */,
+				BCEB89E31E28A790003A9801 /* FAQViewController.swift */,
 			);
 			name = Controller;
 			sourceTree = "<group>";
@@ -162,6 +165,7 @@
 				450990211E27E72900D3148C /* ViewController.swift in Sources */,
 				4509901F1E27E72900D3148C /* AppDelegate.swift in Sources */,
 				450990311E27EEB100D3148C /* Constants.swift in Sources */,
+				BCEB89E41E28A790003A9801 /* FAQViewController.swift in Sources */,
 				4509903F1E280C4800D3148C /* RegisterViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -326,6 +330,7 @@
 				4509902F1E27E72900D3148C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
