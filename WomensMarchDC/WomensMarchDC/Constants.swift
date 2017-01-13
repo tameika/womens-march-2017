@@ -12,4 +12,5 @@ import UIKit
 struct Constants {
     let coral = UIColor(red:0.95, green:0.38, blue:0.36, alpha:1.0)
     let navy = UIColor(red:0.13, green:0.20, blue:0.27, alpha:1.0)
+    let tan = UIColor(red:0.96, green:0.93, blue:0.81, alpha:1.0)
 }
