@@ -9,11 +9,19 @@
 import UIKit
 
 class FAQViewController: UIViewController {
+    
+    @IBOutlet weak var scrollView: UIScrollView!
+    
+    
 
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        // Do any additional setup after loading the view.
+        //Get the first (and only) subview of the scrollView.
+        let subview = scrollView.subviews[0]
+        
+        //Make the scroll view's contentSize the same size as the content view.
+        scrollView!.contentSize = subview.bounds.size
     }
 
     override func didReceiveMemoryWarning() {
@@ -21,15 +29,8 @@ class FAQViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
     
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destinationViewController.
-        // Pass the selected object to the new view controller.
-    }
-    */
-
+    
+    
+    
+    
 }
